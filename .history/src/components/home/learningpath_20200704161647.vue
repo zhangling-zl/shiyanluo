@@ -1,0 +1,40 @@
+<template>
+ <div>
+  <div c></div>
+ </div>
+</template>
+
+<script>
+ export default {
+   name: '',
+   props: {
+       paths:{
+           type:Array
+       }
+   },
+   components: {
+
+   },
+   data () {
+     return {
+
+     }
+   },
+   methods: {
+
+   },
+   mounted() {
+
+   },
+   watch: {
+
+   },
+   computed: {
+
+   }
+ }
+</script>
+
+<style scoped lang='scss'>
+
+</style>
