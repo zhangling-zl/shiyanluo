@@ -52,7 +52,7 @@
         </div>
       </div>
     </div>
-    <div class="navBnt j-center" v-if="flge3===true">
+    <div class="navBnt j-center" v-if="flge3===true" :class='{bs:flge3===true}' >
       <div class="navBnt-center j-between al-cnter">
         <div class="n-c-left j-flex al-cnter">
         <img src="../../assets/imgs/02a4001.svg" class="img1234">
@@ -380,5 +380,8 @@ img {
   position: absolute;
   right: 130px;
   top: 25px;
+}
+.bs{
+ transition:all 2s;
 }
 </style>

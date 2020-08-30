@@ -35,7 +35,7 @@
         </div>
 
         <div class="Button j-center al-cnter">
-          <div class="Button-text j-center al-cnter ">经营专区</div>
+          <div class="Button-text j-center al-cnter f14">经营专区</div>
         </div>
       </div>
       <swiper ref="mySwiper" :options="swiperOptions">
@@ -168,7 +168,6 @@ export default {
 .Button-text {
   width: 90px;
   height: 30px;
-  font-size: 14px;
   border: 1px solid #ccc;
   color: #fff;
   border-radius: 40px;

@@ -10,9 +10,9 @@
           
         >
           <div class="from1 j-flex al-cnter">
-            <div class="text-one m-l-20 f14">{{item.name}}</div>
-            <div class="text-tow f-12 m-l-15 m-r-15">{{item.tags[0].name}}</div>
-            <div class="text-there f-12">{{item.tags[1].name}}</div>
+            <div class="text-one m-l-20">{{item.name}}</div>
+            <div class="text-tow f-14 m-l-15 m-r-15">{{item.tags[0].name}}</div>
+            <div class="text-there f-14">{{item.tags[1].name}}</div>
           </div>
           <div class="frame" v-if="item.flag" >
             <span class="h1">{{item.name}}</span>
@@ -35,7 +35,7 @@
         </div>
 
         <div class="Button j-center al-cnter">
-          <div class="Button-text j-center al-cnter ">经营专区</div>
+          <div class="Button-text j-center al-cnter">经营专区</div>
         </div>
       </div>
       <swiper ref="mySwiper" :options="swiperOptions">
@@ -168,7 +168,6 @@ export default {
 .Button-text {
   width: 90px;
   height: 30px;
-  font-size: 14px;
   border: 1px solid #ccc;
   color: #fff;
   border-radius: 40px;
